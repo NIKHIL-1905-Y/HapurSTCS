@@ -462,3 +462,40 @@ color: #fff !important;
 .news ul li{margin:0;color:#000; border-bottom: solid 1px #d6d6d6;list-style: none;float: left;width: 100%;}
 .news ul li a{color:#000; text-decoration: none;}
 .news ul li a:hover{color:#a41104; text-decoration: none;}
+
+
+ul.sitemap_list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+ul.sitemap_list li {
+  margin: 0 0 15px 0;
+  padding: 0 0 0 20px;
+  position: relative;
+  color: #333;
+  list-style: none;
+  font-size: 14px;
+  width: 33.33%;
+  float: left;
+  line-height: 26px;
+}
+
+  ul.sitemap_list li:before {
+      position: absolute;
+      left: 0;
+      top: 0;
+      content: "\f105";
+      width: 14px;
+      height: 14px;
+      font-family: 'FontAwesome';
+      color: #666;
+  }
+
+  ul.sitemap_list li a:hover {
+      color: #d86838;
+      text-decoration: none;
+  }

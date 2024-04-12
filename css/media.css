@@ -33,10 +33,12 @@ ul.whats_included li .content{width: calc(100% - 100px);}
 .nav-link {padding: 7px 2px !important;}
 .nav-link {font-size: 16px;}
 .navbar-collapse {background: #eee;padding: 0 10px;position: absolute;top: 87px;width: 100%;left: 0;}
+ul.sitemap_list li {width: 50%;}
 }
 @media (max-width:767px){
 .top_services{width: 100%;}
 .side_tabs {max-height: 200px;overflow-y: auto;overflow-x: hidden;padding-right: 15px;}
+ul.sitemap_list li {width: 100%;}
 }
 @media (max-width:575px){
 .topbar .text-end {font-size: 13px;}
